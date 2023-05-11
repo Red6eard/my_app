@@ -3,6 +3,13 @@
     background-color: blueviolet;
 }
 
+.center{
+    text-align: center;
+}
+.item {
+    margin: 10px;
+}
+
 .item a {
     color: white;
 }
