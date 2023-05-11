@@ -7,16 +7,16 @@ const Nav = () => {
       <div className={`${style.item} ${style.center}`}>
         <a href="#">Profile</a>
       </div>
-      <div className={style.item}>
+      <div className={`${style.item} ${style.center}`}>
         <a href="#">Messages</a>
       </div>
-      <div className={style.item}>
+      <div className={`${style.item} ${style.center}`}>
         <a href="#">News</a>
       </div>
-      <div className={style.item}>
+      <div className={`${style.item} ${style.center}`}>
         <a href="#">Music</a>
       </div>
-      <div className={style.item}>
+      <div className={`${style.item} ${style.center}`}>
         <a href="#">Settings</a>
       </div>
     </nav>

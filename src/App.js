@@ -4,7 +4,6 @@ import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import Profile from "./components/Profiles/Profile";
 
-
 const App = () => {
   return (
     <div className="app-wrap">
