@@ -5,15 +5,15 @@ import Post from "./Post/Post";
 const MyPosts = () => {
   return (
     <div className={style.myPosts}>
-      my posts
+      <span className={style.myPostsDesc}>My posts</span>
       <div>
         <textarea></textarea>
         <button>Add post</button>
       </div>
       <div className={style.posts}>
-        <Post />
-        <Post />
-        <Post />
+        <Post message="Hello, World!" likesCount="100"/>
+        <Post message="How are you?" likesCount="55"/>
+        <Post message="This is my first React project!" likesCount="999"/>
       </div>
     </div>
   );

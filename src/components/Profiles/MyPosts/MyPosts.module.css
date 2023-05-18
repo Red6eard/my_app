@@ -1,7 +1,7 @@
-.post{
-    color: brown;
-}
-
 .myPosts{
     background-color: coral;
+}
+
+.myPostsDesc{
+    font-size: 36px;
 }
