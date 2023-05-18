@@ -1,7 +1,9 @@
 .post{
-    color: brown;
+    background-color: beige;
 }
 
-.myPosts{
-    background-color: coral;
+.post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
 }
