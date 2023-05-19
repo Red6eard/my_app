@@ -1,7 +1,13 @@
 .myPosts {
     background-color: coral;
+    text-align: center;
 }
 
 .myPostsDesc {
     font-size: 36px;
+}
+
+
+.posts{
+    text-align: start;
 }
