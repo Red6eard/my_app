@@ -12,7 +12,7 @@ const App = () => {
       <Nav />
       <div className="app-wrap-content">
         <Dialogs />
-        <Profile />
+        {/* <Profile /> */}
       </div>
     </div>
   );
