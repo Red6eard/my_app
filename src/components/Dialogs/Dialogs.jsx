@@ -11,7 +11,7 @@ const DialogItem = (props) => {
 };
 
 const Message = (props) => {
-  return <div className={style.message}>props.message</div>;
+  return <div className={style.message}>{props.message}</div>;
 };
 
 const Dialogs = (props) => {
