@@ -1,13 +1,19 @@
 .myPosts {
     background-color: coral;
-    text-align: center;
 }
 
 .myPostsDesc {
     font-size: 36px;
+    margin: 0 0 0 50px;
 }
 
 
 .posts{
-    text-align: start;
+    
+}
+.enterText{
+    margin: 10px;
+}
+.enterText button{
+    margin: 0 0 20px 50px;
 }

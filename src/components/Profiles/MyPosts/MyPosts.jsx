@@ -6,8 +6,9 @@ const MyPosts = (props) => {
   return (
     <div className={style.myPosts}>
       <span className={style.myPostsDesc}>My posts</span>
-      <div>
-        <textarea></textarea>
+      {/*  разбить на компоненты  */}
+      <div className={style.enterText}>
+        <textarea placeholder="Ваш коментарий"></textarea>
         <button>Add post</button>
       </div>
       <div className={style.posts}>
