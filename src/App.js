@@ -13,6 +13,9 @@ import Settings from "./components/Settings/Settings";
 
 
 const App = (props) => {
+
+
+
   return (
     <BrowserRouter>
       <div className="app-wrap">
@@ -20,8 +23,8 @@ const App = (props) => {
         <Nav />
         <div className="app-wrap-content">
           <Routes>
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/dialogs/*" element={<Dialogs />} />
+            <Route path="/profile" element={<Profile posts={props.posts} />} />
+            <Route path="/dialogs/*" element={<Dialogs messages={props.messages} dialogs={props.dialogs} />} />
             <Route path="/news" element={<News />} />
             <Route path="/music" element={<Music />} />
             <Route path="/settings" element={<Settings />} />

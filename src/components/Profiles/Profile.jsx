@@ -7,10 +7,13 @@ import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 
 const Profile = (props) => {
+
+
+
   return (
     <main className={style.wrap}>
       <ProfileInfo />
-      <MyPosts />
+      <MyPosts posts={props.posts} />
     </main>
   );
 };
